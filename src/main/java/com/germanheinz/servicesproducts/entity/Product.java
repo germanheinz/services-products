@@ -1,4 +1,4 @@
-package com.germanheinz.servicesproducts.models.entity;
+package com.germanheinz.servicesproducts.entity;
 
 import lombok.Data;
 
@@ -12,7 +12,7 @@ import java.util.Date;
 public class Product implements Serializable {
 
     private static final long serialVersionUID = -6452787960092603450L;
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
